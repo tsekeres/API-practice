@@ -5,9 +5,17 @@ body {
   background-color: black;
   color: brown;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-top: 100px;
 }
 
 .card {
-  background-color: 474747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #474747;
+  border-radius: 20px;
 }
