@@ -1,4 +1,5 @@
 import { getCard } from '../../components/cards/jokes';
+import { getLyricsForm } from '../../components/cards/lyrics';
 import loadPage from '../../components/loadPage';
 
 const navEvents = () => {
@@ -10,6 +11,11 @@ const navEvents = () => {
   document.querySelector('#joke-generator').addEventListener('click', (e) => {
     e.preventDefault();
     getCard();
+  });
+
+  document.querySelector('#song-lyrics').addEventListener('click', (e) => {
+    e.preventDefault();
+    getLyricsForm();
   });
 };
 
