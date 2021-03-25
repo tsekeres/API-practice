@@ -1,5 +1,5 @@
 const loadPage = () => {
-  document.querySelector('#main-container').innerHTML = '<div class="logo"><span class="logoText">Test Text Here!!!</span></div>';
+  document.querySelector('#card-container').innerHTML = '<h1 class="welcome">Welcome to API fun!<hr>By Tad Sekeres</h1>';
 };
 
 export default loadPage;
