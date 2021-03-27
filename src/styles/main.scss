@@ -3,7 +3,7 @@
 
 body {
   background-color: black;
-  color: brown;
+  color: #6c8fac;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -18,4 +18,8 @@ body {
   align-items: center;
   background: #474747;
   border-radius: 20px;
+}
+
+.requested-lyrics {
+  white-space: pre-line;
 }

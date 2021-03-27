@@ -1,4 +1,6 @@
 const loadPage = () => {
+  document.querySelector('#card-container').innerHTML = '';
+  document.querySelector('#title-container').innerHTML = '';
   document.querySelector('#card-container').innerHTML = '<h1 class="welcome">Welcome to API fun!<hr>By Tad Sekeres</h1>';
 };
 
