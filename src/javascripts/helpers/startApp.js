@@ -1,11 +1,15 @@
-import { getCard } from '../components/cards/jokes';
 import domBuilder from '../components/domBuilder';
+import loadPage from '../components/loadPage';
+import navBar from '../components/navBar';
 import domEvents from './events/domEvents';
+import navEvents from './events/navEvents';
 
 const startApp = () => {
   domBuilder();
+  navBar();
   domEvents();
-  getCard();
+  navEvents();
+  loadPage();
 };
 
 export default startApp;
